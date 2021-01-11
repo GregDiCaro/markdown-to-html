@@ -2,19 +2,73 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-color: rgb(255, 255, 255);
+  background-image: url(view.jpg);
+  background-size: 100%;
+  color: rgb(223, 211, 211);
+}
+
+p {
+  padding: 0 0 0 10px;
+  text-align: center;
+  color: rgb(7, 7, 7);
+  text-shadow: 1px 1px 0.5px rgb(252, 244, 244);
+}
+}
+
+p em {
+  color: rgb(32, 27, 27);
+  text-shadow: 1px 1px 0.5px rgb(252, 244, 244);
 }
 
 table,
 tr,
+th,
 td {
   border: 2px solid rgb(146, 175, 179);
   border-collapse: collapse;
-  padding: 5px;
-  margin: 5px;
+  padding: 7px;
+  margin: auto;
+  background-color: rgb(48, 45, 45);
+}
+td ul li {
+  list-style-type: none;
 }
 
-li {
-  list-style-type: none;
-  text-align: justify;
+ol {
+  color: rgb(37, 36, 36);
+  text-shadow: 1px 1px 1px white;
+  display: table;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: rgba(175, 166, 166, 0.5);
+}
+li ol {
+  background-color: rgba(0, 0, 0, 0);
+}
+h1,
+h2,
+h3,
+h4 {
+  color: rgb(37, 36, 36);
+  text-shadow: 1px 1px 1px white;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+p img {
+  transition: 0.3s ease-in-out;
+  height: 100px;
+  width: 100px;
+}
+p img:hover {
+  filter: sepia(0.5);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
+a {
+  text-decoration: none;
+  color: rgb(252, 244, 244);
 }
